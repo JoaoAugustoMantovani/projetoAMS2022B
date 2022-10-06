@@ -69,3 +69,5 @@ function mudarImagem() {
     }
 
 }
+
+let hello = "hello";
