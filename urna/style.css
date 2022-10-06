@@ -66,7 +66,7 @@ body{
 #teclado{
     display: grid;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid blue;
     border-radius: 10px;
     border-width:5px;
     margin-top: 100px;
