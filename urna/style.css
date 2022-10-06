@@ -1,0 +1,133 @@
+body{
+    background-color: white;
+    padding-right: 110px;
+    padding-left: 110px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 500px 300px;
+}
+
+/*Início - Coluna 1 --------------------------------------*/
+
+#Voto{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-width: 5px;
+    background-color: gray;
+}
+
+#lblVoto{
+    font-size: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+#txtVoto{
+    border-radius: 5px;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#lblCargo{
+    font-size: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+
+#imgCandidato{
+    text-align: center;
+    width: 220px;
+    height: auto;
+    image-rendering: auto;
+    image-resolution: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#lblCandidato{
+    border-radius: 10px;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+}
+
+/*Fim - Coluna 1 --------------------------------------*/
+
+/*Início - Coluna 2 --------------------------------------*/
+
+#teclado{
+    display: grid;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-width:5px;
+    margin-top: 100px;
+    margin-bottom: 95px;
+    margin-left: 10px;
+
+    background-color: gray;
+    grid-template-columns: 90px 90px 90px;
+    grid-template-rows: 60px 60px 60px 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.botoes{
+    font-size: 30px;
+    font-weight: bold;
+    width: 80px;
+    height: 50px;
+    color: wheat;
+    background-color: rgb(17, 17, 17);
+    border-radius: 8px;
+
+}
+
+#btnBranco{
+    font-size: medium;
+    font-weight: bold;
+    width: 70px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+#btnCorrige{
+    font-size: medium;
+    font-weight: bold;
+    width: 70px;
+    height: 40px;
+    color: black;
+    background-color: red;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+#btnConfirma{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    width: 85px;
+    height: 60px;
+    color: black;
+    background-color: green;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+/*Fim - Coluna 2 --------------------------------------*/
+
+#txtVoto{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+

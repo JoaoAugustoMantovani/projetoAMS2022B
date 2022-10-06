@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Urna</title>
+</head>
+
+<body>
+  <div id="container">
+
+    <div id="Voto">
+      <label for="" id="lblVoto">VOTO</label>
+      <br>
+      <br>
+      <input type="text" id="txtVoto" size="5px" value="" maxlength="5" readonly />
+      <br />
+      <br />
+      <label id="lblCargo" for="">Cargo</label>
+      <br />
+      <br />
+      <img src="img/RobertinhoDoGelo.jpg" alt="" id="imgCandidato" />
+      <br />
+      <br>
+      <label id="lblCandidato" for="">Candidato</label>
+      <br>
+      <br>
+    </div>
+
+    <Audio id="AudioBotoes" src="sound/AudioBotoes.mp3"></Audio>
+    <Audio id="AudioConfirma" src="sound/AudioConfirma.mp3"></Audio>
+
+    <div id="direita">
+      <div id="timer">
+        Timer:
+      </div>
+      <div id="teclado">
+          <input type="button" value="1" id="btn_1" class="botoes" onclick="inserir(1);" />
+          <input type="button" value="2" id="btn_2" class="botoes" onclick="inserir(2);" />
+          <input type="button" value="3" id="btn_3" class="botoes" onclick="inserir(3)" />
+          <input type="button" value="4" id="btn_4" class="botoes" onclick="inserir(4)" />       
+          <input type="button" value="5" id="btn_5" class="botoes" onclick="inserir(5)" />       
+          <input type="button" value="6" id="btn_6" class="botoes" onclick="inserir(6)" />
+          <input type="button" value="7" id="btn_7" class="botoes" onclick="inserir(7)" />
+          <input type="button" value="8" id="btn_8" class="botoes" onclick="inserir(8)" />
+          <input type="button" value="9" id="btn_9" class="botoes" onclick="inserir(9)" />
+        <p></p>
+          <input type="button" value="0" id="btn_0" class="botoes" onclick="inserir(0)" />     
+        <p></p>      
+          <input id="btnBranco" type="button" value="Branco" onclick="branco();" />      
+          <input id="btnCorrige" type="button" value="Corrige" onclick="corrige()" />       
+          <input id="btnConfirma" type="button" value="Confirma" onclick="confirma()" />
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
